@@ -16,5 +16,9 @@ pip install backendkit
 
 et dans son application :
 ```python
-from backendkit import BackendKitclient = BackendKit(    base_url="http://localhost:8080",    api_key="...")user = client.auth.create_user(...)
+from backendkit import BackendKit
+client = BackendKit(
+    base_url="http://localhost:8080",
+    api_key="...")
+user = client.auth.create_user(...)
 ```
